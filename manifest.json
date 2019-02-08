@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Thirsty Lions Storage", 
+    "version": "1.0",
+    "description": "Change User Agent String (Chrome Storage)", 
+    "icons": {
+        "128": "Lion.png", 
+        "48": "Lion.png", 
+        "16": "Lion.png" 
+    }, 
+    "options_page": "options.html",
+    "permissions": [
+        "storage", 
+        "notifications"
+        ],
+    "browser_action":{
+        "default_icon": "Lion.png",
+        "default_popup": "options.html"
+    }
+}
